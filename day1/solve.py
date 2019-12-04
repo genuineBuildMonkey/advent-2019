@@ -6,7 +6,7 @@ masses = open('input.txt', 'r').readlines()
 
 
 def part1():
-    return sum([((int(i.strip()) / 3) - 2) for i in masses]) 
+    return sum([((int(i.strip()) / 3) - 2) for i in masses])
 
 
 def part2():
