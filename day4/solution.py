@@ -56,7 +56,6 @@ def part2():
                 if tn == tl:
 
                     if re.search(r'%s{3}' % tn, s):
-                        print(s, tn)
                         if not foundDouble:
                             foundDouble = False
                     else:
